@@ -1,0 +1,47 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Problem definition}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{State of the art}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Work contributions}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Context and general vision of the project of the company TaIO Systems}{}% 5
+\BOOKMARK [1][-]{section.3}{Description of the operation and components of the IoT environment}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Structure of the IoT environment}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Tag}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Unified Gateway Server}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Gateway}{subsection.3.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Server}{subsection.3.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Gateway Virtual Appliance}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.5}{Communication between system components}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Tag/Server communication}{subsection.3.5}% 14
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Server/Gateway communication}{subsection.3.5}% 15
+\BOOKMARK [3][-]{subsubsection.3.5.3}{Gateway/GVA communication}{subsection.3.5}% 16
+\BOOKMARK [1][-]{section.4}{Description of the operation of the simulated system}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Simulated tag and server}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Sniffer}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.3}{Synchronization of multiple threads based on kernel}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.4}{Simulated gateway}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.5}{Simulated GVA}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.6}{Simulation of the tag/server communication}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.7}{Simulation of the server/gateway communication}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.8}{Simulation of the gateway/GVA communication}{section.4}% 25
+\BOOKMARK [3][-]{subsubsection.4.8.1}{Send messages to Gateway}{subsection.4.8}% 26
+\BOOKMARK [3][-]{subsubsection.4.8.2}{Receive messages from Gateway}{subsection.4.8}% 27
+\BOOKMARK [2][-]{subsection.4.9}{C-Process}{section.4}% 28
+\BOOKMARK [1][-]{section.5}{Description of the BDD methodology}{}% 29
+\BOOKMARK [1][-]{section.6}{Description of the implementation of scenarios for the simulated system}{}% 30
+\BOOKMARK [2][-]{subsection.6.1}{Selection of the BDD library}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.2}{Automation of the simulated system execution process}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.3}{Integration of the library to the simulated system}{section.6}% 33
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Behave project structure}{subsection.6.3}% 34
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Running a sample scenario for the simulated system}{subsection.6.3}% 35
+\BOOKMARK [1][-]{section.7}{Definition and development of the scenarios for the simulated system}{}% 36
+\BOOKMARK [2][-]{subsection.7.1}{Packet loss and tag-server distance}{section.7}% 37
+\BOOKMARK [2][-]{subsection.7.2}{Implementation of the scenarios}{section.7}% 38
+\BOOKMARK [1][-]{section.8}{Generation of current graphs in the simulated tag}{}% 39
+\BOOKMARK [1][-]{section.9}{Resultados}{}% 40
+\BOOKMARK [2][-]{subsection.9.1}{Speed factor}{section.9}% 41
+\BOOKMARK [2][-]{subsection.9.2}{Debugging of the whole system}{section.9}% 42
+\BOOKMARK [2][-]{subsection.9.3}{Current consumption graph}{section.9}% 43
+\BOOKMARK [2][-]{subsection.9.4}{Bug fixes}{section.9}% 44
+\BOOKMARK [2][-]{subsection.9.5}{Optimization of the development time}{section.9}% 45
+\BOOKMARK [1][-]{section.10}{Conclusions}{}% 46
+\BOOKMARK [1][-]{section*.2}{References}{}% 47
