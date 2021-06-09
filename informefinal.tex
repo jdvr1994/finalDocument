@@ -236,7 +236,7 @@ In Brazil, Hugo Lopes Tavares et al. present a set of tools for the implementati
 
 In \cite{solis2011study}, Carlos Solís and Xiaofeng Wang developed a study of the characteristics of BDD, in which they describe its main characteristics identified through an analysis of the corresponding literature and present the commonly used tools to implement this method. They providing a basis for understanding BDD as well as for expanding existing BDD tool sets or developing new ones.
 
-Recently, in 2019, Myint Myint Moe publishes in the International Journal of Trends in Scientific Research and Development (IJTSRD) a comparative study between three software development techniques: TDD (Test Driven Development), BDD (Behavior Driven Development), and ATDD (Acceptance Test-Driven Development), in which he describes the main advantages and disadvantages of each of the methods \cite{moe2019comparative}. The authors mention that BDD has evolved from TDD as a format to eliminate the deficiencies of TDD, highlighting better communication between developers, testers and users. They also highlight a much shorter learning curve as a consequence of the use of natural language. But this method also has some disadvantages when the requirements and functionalities of the system are not specified properly. Furthermore, the authors assure that to work with BDD, prior knowledge of other testing methodologies such as TDD is required.
+Recently, in 2019, Myint Myint Moe publishes in the International Journal of Trends in Scientific Research and Development (IJTSRD) a comparative study between three software development techniques: TDD (Test Driven Development), BDD (Behavior Driven Development), and ATDD (Acceptance Test-Driven Development), in which he describes the main advantages and disadvantages of each of the methods \cite{moe2019comparative}. The authors mention that BDD has evolved from TDD as a format to eliminate the deficiencies of TDD, highlighting better communication between developers, testers, and users. They also highlight a much shorter learning curve as a consequence of the use of natural language. But this method also has some disadvantages when the requirements and functionalities of the system are not specified properly. Furthermore, the authors assure that to work with BDD, prior knowledge of other testing methodologies such as TDD is required.
 
 In the same year, Mohammad Alhaj, Gilbert Arbez and Liam Peyton published a study on the integration of behavioral development with hardware and software co-design, applied to a renewable energy project in collaboration with a private company in Canada. The goal is to build a system of autonomous load management of self-forming renewable energy nano-grids \cite{alhajapproach}.
 
@@ -304,7 +304,7 @@ In this IoT environment, it is used a star network topology in which the nodes a
 
     
     \end{tikzpicture}
-    \caption{Structure of the IoT enviroment}
+    \caption{Star network topology used by the IoT enviroment}
     \label{fig:topology}
 \end{figure}
 
@@ -463,7 +463,7 @@ To run functional tests on component's code, TaIO Systems has developed scripts 
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.95\columnwidth]{SIMULATED-SYSTEM.png}
-\caption{Simulated system structure.}
+\caption{Simulated system structure for functional tests on Linux-based system.}
 \label{fig:simulated-system}
 \end{figure}
 
@@ -479,7 +479,7 @@ Something important in the implementation, is the ability to switch between the 
 \subsection{Sniffer}
 
 
-It is a C script that allows us to collect the transmitted information by the communication channel, used by the server and the tags to be viewed in a readable form by the user. In the same way as the server and the tags, this script is compiled using the gcc compilation tool.
+It is a C script that allows us to collect the transmitted information by the communication channel used by the server and the tags. This allow to the user to view it in a readable manner. In the same way as the server and the tags, this script is compiled using the gcc compilation tool.
 
 
 \subsection{Synchronization of multiple threads based on kernel}
@@ -538,7 +538,7 @@ When a new message is received by the kernel, it overwrites the previous message
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.98\columnwidth]{radiokernel.png}
-\caption{Example of a time diagram for the radio simulator communication.}
+\caption{Example of a time diagram for the radio simulator communication with 3 writing processes and a reading process.}
 \label{fig:radio_kernel}
 \end{figure}
 
@@ -631,7 +631,7 @@ The idea of BDD was born from the need for developers to show the results of uni
     - fails for duplicate customers
     - ...
 \end{lstlisting}
-\caption{Agiledox result.}
+\caption{Agiledox result for the JAVA example.}
 \label{fig:agiledox}
 \end{figure}
 
@@ -660,7 +660,7 @@ Besides, the developer can use the extra word "And" in order to extend the "give
         And ensure cash is dispensed
         And ensure the card is returned
 \end{lstlisting}
-\caption{ATM BDD Scenario 1.}
+\caption{An BDD scenario example related to an ATM transaction.}
 \label{fig:ATMscenario1}
 \end{figure}
 
@@ -676,7 +676,7 @@ Besides, the developer can use the extra word "And" in order to extend the "give
         And ensure cash is not dispensed
         And ensure the card is returned
 \end{lstlisting}
-\caption{ATM BDD Scenario 2.}
+\caption{An BDD scenario example related to an ATM transaction in overdrawn conditions.}
 \label{fig:ATMscenario2}
 \end{figure}
 
@@ -697,7 +697,7 @@ Both scenarios are based on the same event and have some givens and outcomes in 
      Scenario 2: ...
      ...
 \end{lstlisting}
-\caption{ATM feature example.}
+\caption{ATM feature denition example.}
 \label{fig:ATMfeature}
 \end{figure}
 
@@ -1022,14 +1022,14 @@ Based on the previous analysis, the dependence between the probability of error 
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.99\columnwidth]{snr2.png}
-\caption{Plot of PER vs SNR.}
+\caption{Plot of Packet error rates vs SNR, using different length packets.}
 \label{fig:snr}
 \end{figure}
 
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.99\columnwidth]{distance2.png}
-\caption{Plot of PER vs Distance.}
+\caption{Plot of PER vs Distance, using different length packets.}
 \label{fig:distance}
 \end{figure}
 
@@ -1097,7 +1097,7 @@ Scenario: <{3} tags are already to establish communication and send sensor data 
     Then I should get sensor data from multiple tags for 1 hours
     And ensure there is no lost data
 \end{lstlisting}
-\caption{BDD Scenario example with packet loss.}
+\caption{BDD Scenario definition example for packet loss conditions.}
 \label{fig:bddScenario1}
 \end{figure}
 
@@ -1113,7 +1113,7 @@ Scenario: <{10} tags are already to establish communication and store data in a 
     And the tags establish connection again
     Then I should get sensor data logged from all the tags
 \end{lstlisting}
-\caption{BDD Scenario example with disconnection period.}
+\caption{BDD Scenario example with disconnection conditions.}
 \label{fig:bddScenario2}
 \end{figure}
 
@@ -1199,7 +1199,7 @@ As mentioned in section \ref{sec:implScenarios}, 98 scenarios were implemented a
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.95\columnwidth]{scenarios4.png}
-\caption{Real and simulation times.}
+\caption{Real and simulation times for all the behavior tests.}
 \label{fig:scenarios1}
 \end{figure}
 
@@ -1246,7 +1246,7 @@ Figure \ref{fig:simulated-system} shows a screenshot of the simulation system, r
 \begin{figure*}[t!]
 \centering
 \includegraphics[width=0.99\textwidth]{simulated.png}
-\caption{Simulated system running.}
+\caption{Simulated system running and showing the debugging process outputs.}
 \label{fig:simulated-system}
 \end{figure*}
 
@@ -1261,7 +1261,7 @@ As mentioned in section \ref{sec:current}, a mechanism was developed to generate
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.99\columnwidth]{microIntervalsAll.png}
-\caption{Micro intervals consumption graph.}
+\caption{Micro intervals consumption graph for simulated and real systems.}
 \label{fig:microIntervals}
 \end{figure}
 
